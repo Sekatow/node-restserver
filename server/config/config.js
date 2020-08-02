@@ -25,13 +25,20 @@ process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
 //=====================================
 // SEED de autenticacion
 //=====================================
-process.env.SEED = process.env.SEED || "este-es-el-seed-desarrollo"
+process.env.SEED = process.env.SEED || "este-es-el-seed-desarrollo";
 
 
 
 //=====================================
 // Base de datos
 //=====================================
+
+
+//=====================================
+// CLIENTE ID
+//=====================================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || "102939509371-46atfthisdh5p2ci1c4sk262m19vea9i.apps.googleusercontent.com";
 
 let urlDB;
 
